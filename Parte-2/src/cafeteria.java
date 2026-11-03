@@ -9,7 +9,6 @@ public class cafeteria {
         double[] precios = {3500, 5000, 4000, 4500, 6000};
         char[] categorias = {'B', 'B', 'F', 'C', 'P'}; // B=Bebida caliente, F=Fría, C=Comida P=Postre
         int[] pedidoProducto = {0, 2, 1, 4, 0, 3}; // índice del producto en cada pedido
-        int[] pedidoCantidad = {2, 1, 3, 6, 1, 2}; // unidades por pedido
 
 
         //Tarea 1 - Procesamiento de pedidos
@@ -63,11 +62,6 @@ public class cafeteria {
                 System.out.printf("Pedido #%d | Producto: %s | Cantidad: %d | Categoría: %s | Subtotal: $%.2f | Descuento: %b%n",
                         (i + 1),nombreProducto, cantidadPedido, DescripcionCate, subTotal, validarDescuento);
             }
-
-            //Tarea 3: Validación de inventario
-
-
-
         }
     }
 }
